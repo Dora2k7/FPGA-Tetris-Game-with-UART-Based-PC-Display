@@ -4,6 +4,8 @@ A hardware Tetris game implemented in Verilog for the **Gowin ACG525 Education B
 
 ## Demo
 
+![FPGA Tetris game running on the Gowin ACG525 Education Board](video/demo.jpg)
+
 [![Open the FPGA Tetris demo](video/demo-preview.svg)](video/demo.mp4)
 
 [Open the demo video directly](video/demo.mp4)
