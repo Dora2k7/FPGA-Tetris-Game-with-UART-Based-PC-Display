@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Open FPGA Tetris UART display demo">
+  <rect width="960" height="540" fill="#101820"/>
+  <rect x="48" y="42" width="864" height="456" rx="12" fill="#182631" stroke="#53d8c5" stroke-width="4"/>
+  <rect x="92" y="82" width="360" height="360" fill="#071015" stroke="#b7f7ed" stroke-width="3"/>
+  <path d="M92 118h360M92 154h360M92 190h360M92 226h360M92 262h360M92 298h360M92 334h360M92 370h360M92 406h360M128 82v360M164 82v360M200 82v360M236 82v360M272 82v360M308 82v360M344 82v360M380 82v360M416 82v360" stroke="#203b42" stroke-width="2"/>
+  <g fill="#53d8c5"><rect x="200" y="118" width="34" height="34"/><rect x="236" y="118" width="34" height="34"/><rect x="272" y="118" width="34" height="34"/><rect x="272" y="154" width="34" height="34"/><rect x="272" y="190" width="34" height="34"/><rect x="308" y="190" width="34" height="34"/></g>
+  <polygon points="690,166 742,218 690,270 638,218" fill="#f4c95d"/>
+  <circle cx="690" cy="218" r="28" fill="#101820"/>
+  <text x="480" y="342" fill="#f4c95d" font-family="sans-serif" font-size="34" font-weight="700">FPGA TETRIS</text>
+  <text x="480" y="386" fill="#b7f7ed" font-family="sans-serif" font-size="24">UART display demo</text>
+  <text x="480" y="430" fill="#8ca5ab" font-family="sans-serif" font-size="18">Click to open demo.mp4</text>
+</svg>
