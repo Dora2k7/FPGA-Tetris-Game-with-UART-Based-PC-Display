@@ -4,11 +4,11 @@ A hardware Tetris game implemented in Verilog for the **Gowin ACG525 Education B
 
 ## Demo
 
-![FPGA Tetris game running on the Gowin ACG525 Education Board](video/demo.jpg)
+![FPGA Tetris game running on the Gowin ACG525 Education Board](demo/demo.jpg)
 
-[![Open the FPGA Tetris demo](video/demo-preview.svg)](video/demo.mp4)
+[![Open the FPGA Tetris demo](demo/demo-preview.svg)](demo/demo.mp4)
 
-[Open the demo video directly](video/demo.mp4)
+[Open the demo video directly](demo/demo.mp4)
 
 ## Hardware platform
 
@@ -54,7 +54,7 @@ The UART frame sender has its own 3-state FSM (`IDLE`, `SEND`, `WAIT`) to serial
 
 - `src/`: Verilog game logic, UART, I2C OLED, buzzer, seven-segment and constraints
 - `game_viewer.py`: Python UART receiver and laptop display viewer
-- `video/demo.mp4`: demonstration video
+- `demo/demo.mp4`: demonstration video and board photo
 - `fpga_project_display.gprj`: Gowin project file
 
 ## Running the viewer
