@@ -1,0 +1,25 @@
+# Gowin generated implementation files
+impl/
+display_test/impl/
+
+# IDE/user-local files
+*.gprj.user
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Build outputs
+*.bin
+*.fs
+*.bit
+*.db
+*.rpt
+*.log
+*.pin.html
+*.power.html
+*.timing.html
+*.tr.html
+*.pr
+*.p
+*.vg

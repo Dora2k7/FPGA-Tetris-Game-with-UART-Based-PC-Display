@@ -1,0 +1,23 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+    <FileList>
+        <File path="src/buzzer.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_sender.v" type="file.verilog" enable="1"/>
+        <File path="src/game_logic.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/oled_difficulty.v" type="file.verilog" enable="1"/>
+        <File path="src/seven_seg.v" type="file.verilog" enable="1"/>
+        <File path="src/top_uart_game.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_game.cst" type="file.cst" enable="1"/>
+        <File path="src/uart_game.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+    <OptionList>
+        <Option type="sspi_as_gpio" value="1"/>
+        <Option type="cpu_as_gpio" value="1"/>
+    </OptionList>
+</Project>
